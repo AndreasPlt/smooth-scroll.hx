@@ -22,8 +22,10 @@
 
 (define (calculate-delay size)
   (cond
-    [(>= size 30) 0]
-    [(>= size 20) 2]
+    [(>= size 50) 1]
+    [(>= size 40) 2]
+    [(>= size 30) 3]
+    [(>= size 20) 4]
     [(>= size 10) 5]
     [else 10]))
 
